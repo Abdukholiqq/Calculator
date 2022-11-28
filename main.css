@@ -1,0 +1,35 @@
+.calculate {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 230px;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 20px 35px;
+  gap: 25px;
+  border-radius: 20px;
+  background-color: greenyellow;
+}
+input {
+  margin: 0 auto;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+}
+input:hover {
+  background-color: black;
+  color: yellow;
+}
+
+#result {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  max-zoom: 18;
+  color: dimgray;
+  box-sizing: border-box;
+  background-color: #fff;
+}
